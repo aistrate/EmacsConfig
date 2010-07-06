@@ -1,0 +1,108 @@
+General:
+C-q                                     (XKeymacs only:) Enable/disable XKeymacs.
+Esc                                     Meta (Alt)
+C-[                                     Meta (Alt)
+M-x         execute-extended-command    Read function name, then read its arguments and call it.
+
+
+Files:
+C-x C-f     find-file                   Find file and read it in a new buffer.
+C-x k       kill-buffer                 Delete the buffer specified.
+C-x C-s     save-buffer                 Save file.
+C-x C-w     write-file                  Write buffer contents to file (Save As...).
+
+
+Search:
+C-s         isearch-forward             Incremental search forward; find next occurrence (forward).
+C-r         isearch-backward            Incremental search backward; find next occurrence (backward).
+M-%         query-replace               Interactively replace a text string.
+C-M-%       query-replace-regexp        Query-replace a regular expression.
+
+
+Motion:
+C-b         backward-char               Move backward one character (left).
+C-f         forward-char                Move forward one character (right).
+M-b         backward-word               Move one word backward.
+M-f         forward-word                Move one word forward.
+C-p         previous-line               Move to previous line (up).
+C-n         next-line                   Move to next line (down).
+C-a         beginning-of-line           Move to beginning of line.
+C-e         end-of-line                 Move to end of line.
+M-<         beginning-of-buffer         Move to beginning of file.
+M->         end-of-buffer               Move to end of file.
+M-v         scroll-down                 Move backward one screen.
+C-v         scroll-up                   Move forward one screen.
+C-l         recenter                    (XKeymacs:) Scroll current line to center of screen.
+C-l         recenter-top-bottom         (Real Emacs:) Redraw garbaged screen (iterates through center->top->bottom->...).
+C-u C-l     recenter                    (Real Emacs only:) Scroll current line to center of screen.
+
+
+Killing and Deleting:
+Backspace   delete-backward-char        Delete (not kill) previous character.
+C-h         delete-backward-char        (XKeymacs only:) Delete (not kill) previous character.
+C-d         delete-char                 Delete (not kill) next character.
+C-w         kill-region                 Kill ("cut") text between point and mark.
+M-w         kill-ring-save              Copy the region (so it can be pasted with C-y).
+M-0 C-k                                 Kill beginning of line (backward).
+C-k         kill-line                   Kill the rest of the current line; if no nonblanks there, kill thru newline.
+C-t         transpose-chars             Interchange characters around cursor, moving forward one character.
+M-t         transpose-words             Interchange words around cursor, leaving cursor at end of them.
+C-x C-t     transpose-lines             Exchange current line and previous line, leaving cursor after both.
+M-Backspace backward-kill-word          Kill characters backward to beginning of word.
+M-d         kill-word                   Kill characters forward to end of word.
+C-y         yank                        Paste most recently killed or copied text.
+M-y         yank-pop                    Replace last yank ("paste") with previous kill ("cut"); aka "paste rotate".
+C-Space     set-mark-command            Mark the beginning (or end) of a region.
+C-x h       mark-whole-buffer           Put cursor at beginning and mark at end of buffer.
+C-x C-p     mark-page                   Put mark at end of page, cursor at beginning (in source code, same as mark-whole-buffer).
+
+
+Formatting:
+C-m         newline                     Insert newline.
+C-o         open-line                   Insert newline after cursor.
+M-i         tab-to-tab-stop             Insert spaces or tabs to next defined tab-stop column.
+C-i         tab-to-tab-stop (?)         (same)
+M-l         downcase-word               Convert following word to lower case, moving over.
+M-u         upcase-word                 Convert following word to upper case, moving over.
+M-c         capitalize-word             Capitalize the following word, moving over.
+
+
+Error recovery:
+C-x u       advertised-undo             Undo last edit (can be done repeatedly).
+C-/         undo                        Undo last edit.
+C-_         undo                        Undo last edit.
+C-g         keyboard-quit               Abort current command.
+
+
+Repeating:
+M-<n>       digit-argument              Repeat the next command n times.
+C-<n>       digit-argument              (same)
+C-M-<n>     digit-argument              (Real Emacs only:) (same)
+C-u <n>     universal-argument          Repeat the next command n times (four times if you omit n).
+M--         negative-argument           Begin a negative numeric argument for the next command.
+C--         negative-argument           (same)
+
+
+Keyboard Macros:
+C-x (       kmacro-start-macro          (Real Emacs:) Record subsequent keyboard input, defining a keyboard macro.
+C-x (       start-kbd-macro             (XKeymacs:) (same)
+C-x )       kmacro-end-macro            (Real Emacs:) Finish defining a keyboard macro.
+C-x )       end-kbd-macro               (XKeymacs:) (same)
+C-x e       kmacro-end-and-call-macro   (Real Emacs:) Call last keyboard macro, ending it first if currently being defined.
+C-x e       call-last-kbd-macro         (XKeymacs:) Call the last keyboard macro.
+
+
+Shell:
+M-!         shell-command               (Real Emacs:) Execute string 'command' in inferior shell; display output, if any.
+M-!         shell-command               (XKeymacs:) Launch new DOS command shell.
+
+
+Leaving Active Window:
+C-z         iconify-or-deiconify-frame  Suspend Emacs (or iconify it under X).
+C-x C-c     save-buffers-killemacs      Exit Emacs.
+M-F12                                   (XKeymacs only:) Roll-up/unroll window.
+
+
+Toggle Input Method Editor
+C-\         toggle-input-method         Enable/disable multilingual text input method for the current buffer.
+C-x C-j     toggle-input-method         (XKeymacs only:) (same)
