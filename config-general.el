@@ -34,7 +34,7 @@
 (setq initial-frame-alist '((top . 0) (left . 0)))
 
 (setq default-frame-alist
-      '((width . 96) (height . 58)
+      '((width . 96) (height . 57)
         ;;(cursor-color . "white")
         (cursor-type . bar)
         ;;(foreground-color . "yellow")
