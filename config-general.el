@@ -23,6 +23,8 @@
 
 (setq inhibit-startup-screen t)
 ;;(setq initial-buffer-choice "C:/Languages/Haskell/empty")
+;;(cd "C:/Emacs/EmacsConfig/typing")
+;;(setq default-directory "C:/Emacs/EmacsConfig/typing")
 
 ;; "HP Photosmart 3200 series"
 (setq printer-name "192.168.1.70")
