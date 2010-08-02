@@ -9,6 +9,7 @@
  '(show-paren-mode t)
  '(tool-bar-mode nil nil (tool-bar))
  '(trash-directory "~/.Trash")
+ '(word-wrap t)
  '(woman-locale "ENU"))
 
 (custom-set-faces
@@ -32,6 +33,10 @@
 (setq user-full-name "Adrian Istrate")
 
 (global-set-key [(control meta down-mouse-3)] 'imenu)
+
+;(setq default-major-mode 'text-mode)
+;(add-hook 'text-mode-hook 'turn-on-auto-fill)
+;(add-hook 'text-mode-hook (lambda () (refill-mode 1)))
 
 (setq initial-frame-alist '((top . 0) (left . 0)))
 
