@@ -37,11 +37,7 @@
 
 (setq default-frame-alist
       '((width . 96) (height . 57)
-        ;;(cursor-color . "white")
         (cursor-type . bar)
-        ;;(foreground-color . "yellow")
-        ;;(background-color . "black")
-        ;;(font . "-*-Courier-normal-r-*-*-13-*-*-*-c-*-iso8859-1")
-        ;;(font . "-*-ProggyClean-normal-r-*-*-8-*-*-*-c-*-*-*")
-        (font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;;(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        (font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
 	))
