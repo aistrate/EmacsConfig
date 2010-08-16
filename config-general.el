@@ -43,6 +43,6 @@
 (setq default-frame-alist
       '((width . 96) (height . 57)
         (cursor-type . bar)
-        ;;(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
-        (font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
+        (font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;;(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
 	))
