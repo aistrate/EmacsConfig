@@ -46,6 +46,7 @@
       '((width . 96) (height . 57)
         (cursor-type . bar)
         (font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;;(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
         ;;(font . "-*-DejaVu Sans Mono-normal-r-*-*-14-*-*-*-c-*-*-*")
         ;;(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
 	))
