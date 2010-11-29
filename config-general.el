@@ -22,6 +22,8 @@
 (add-hook 'find-file-hook (lambda () (linum-mode 1)))
 (setq linum-format "%4d ")
 
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+
 (setq inhibit-startup-screen t)
 ;;(setq initial-buffer-choice "C:/Languages/Haskell/empty")
 ;;(cd "C:/Emacs/EmacsConfig/typing")
@@ -44,5 +46,6 @@
       '((width . 96) (height . 57)
         (cursor-type . bar)
         (font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;;(font . "-*-DejaVu Sans Mono-normal-r-*-*-14-*-*-*-c-*-*-*")
         ;;(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
 	))
