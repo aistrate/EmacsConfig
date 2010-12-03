@@ -1,0 +1,8 @@
+M-m         back-to-indentation         Move cursor to first non-whitespace character on this line.
+
+M-;         comment-dwim                Call comment command ("Do What I Mean"):
+                                        - if a region is selected, call comment-region (or uncomment-region);
+                                        - else, if current line is empty, call comment-insert-comment-function;
+                                        - else, call comment-indent
+
+M-:         eval-expression             Evaluate expression

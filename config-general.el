@@ -25,9 +25,9 @@
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
 (setq inhibit-startup-screen t)
-;;(setq initial-buffer-choice "C:/Languages/Haskell/empty")
-;;(cd "C:/Emacs/EmacsConfig/typing")
-;;(setq default-directory "C:/Emacs/EmacsConfig/typing")
+;; (setq initial-buffer-choice "C:/Languages/Haskell/empty")
+;; (cd "C:/Emacs/EmacsConfig/typing")
+;; (setq default-directory "C:/Emacs/EmacsConfig/typing")
 
 ;; "HP Photosmart 3200 series"
 (setq printer-name "192.168.1.70")
@@ -36,17 +36,25 @@
 
 (global-set-key [(control meta down-mouse-3)] 'imenu)
 
-;(setq default-major-mode 'text-mode)
-;(add-hook 'text-mode-hook 'turn-on-auto-fill)
-;(add-hook 'text-mode-hook (lambda () (refill-mode 1)))
+;; (setq default-major-mode 'text-mode)
+;; (add-hook 'text-mode-hook 'turn-on-auto-fill)
+;; (add-hook 'text-mode-hook (lambda () (refill-mode 1)))
 
 (setq initial-frame-alist '((top . 0) (left . 0)))
+
+(blink-cursor-mode t)
 
 (setq default-frame-alist
       '((width . 96) (height . 57)
         (cursor-type . bar)
-        (font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
-        ;;(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
-        ;;(font . "-*-DejaVu Sans Mono-normal-r-*-*-14-*-*-*-c-*-*-*")
-        ;;(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
+        (cursor-color . "black")
 	))
+
+;; (assq-delete-all 'font default-frame-alist)
+
+(add-to-list 'default-frame-alist
+        '(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
+        ;; '(font . "-*-DejaVu Sans Mono-normal-r-*-*-14-*-*-*-c-*-*-*")
+        ;; '(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
+        )
