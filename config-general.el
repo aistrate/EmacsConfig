@@ -50,11 +50,11 @@
         (cursor-color . "black")
 	))
 
-;; (assq-delete-all 'font default-frame-alist)
+;; (setq default-frame-alist (assq-delete-all 'font default-frame-alist))
 
 (add-to-list 'default-frame-alist
         '(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
         ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
-        ;; '(font . "-*-DejaVu Sans Mono-normal-r-*-*-14-*-*-*-c-*-*-*")
+        ;; '(font . "-*-DejaVu Sans Mono-normal-r-*-*-15-*-*-*-c-*-*-*")
         ;; '(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
         )
