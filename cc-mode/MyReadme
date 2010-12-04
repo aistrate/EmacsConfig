@@ -1,0 +1,10 @@
+To compile CC Mode from the shell, run this from the cc-mode directory:
+
+    $ emacs -batch -no-site-file -q -f batch-byte-compile cc-*.el
+
+To test that you have things set up correctly, visit a C file and then type:
+
+    M-x c-version
+    => Using CC Mode version 5.XX
+
+where XX is the correct minor revision number (5.31.7).
