@@ -54,7 +54,7 @@
 
 (add-to-list 'default-frame-alist
         '(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
-        ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
         ;; '(font . "-*-DejaVu Sans Mono-normal-r-*-*-15-*-*-*-c-*-*-*")
+        ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
         ;; '(font . "-*-Anonymous Pro-normal-r-*-*-15-*-*-*-c-*-*-*")
         )
