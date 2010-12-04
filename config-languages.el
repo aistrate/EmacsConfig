@@ -21,6 +21,18 @@
 			      auto-mode-alist))
 
 
+;; CC mode
+(setq c-basic-offset 4)
+
+(setq c-default-style '((java-mode . "java")
+                        (awk-mode . "awk")
+                        (other . "k&r")))
+
+(defun my-make-CR-do-indent ()
+  (define-key c-mode-base-map "\C-m" 'c-context-line-break))
+(add-hook 'c-initialization-hook 'my-make-CR-do-indent)
+
+
 ;; "Typing Of Emacs" game
 ;; First, open a text file (such as "typing/corncob.txt") in Emacs,
 ;; then run command typing-of-emacs (M-x).
