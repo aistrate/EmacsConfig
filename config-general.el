@@ -4,7 +4,8 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(cua-mode t nil (cua-base))
+ ;; '(cua-mode t nil (cua-base))
+ '(cua-mode nil)
  '(selection-coding-system (quote utf-16le-dos))
  '(show-paren-mode t)
  '(tool-bar-mode nil nil (tool-bar))

@@ -1,8 +1,23 @@
-M-m         back-to-indentation         Move cursor to first non-whitespace character on this line.
+M-m      back-to-indentation   Move cursor to first non-whitespace character on this line.
 
-M-;         comment-dwim                Call comment command ("Do What I Mean"):
-                                        - if a region is selected, call comment-region (or uncomment-region);
-                                        - else, if current line is empty, call comment-insert-comment-function;
-                                        - else, call comment-indent
+M-;      comment-dwim          Call comment command ("Do What I Mean"):
+                               - if a region is selected, call comment-region
+                                 (or uncomment-region);
+                               - else, if current line is empty,
+                                 call comment-insert-comment-function;
+                               - else, call comment-indent.
 
-M-:         eval-expression             Evaluate expression
+M-:      eval-expression       Evaluate expression.
+
+C-/      undo                  Undo some previous changes.
+C-_
+
+C-x u    advertised-undo       Alias for 'undo'.
+
+M-v      scroll-down           Scroll to previous screen (same as Page Up).
+                               Only works when 'C-x/C-c/C-v Cut and Paste (CUA)'
+                               is disabled. (CUA stands for Common User Access.)
+
+C-v      scroll-up             Scroll to next screen (same as Page Down).
+                               Only works when 'C-x/C-c/C-v Cut and Paste (CUA)'
+                               is disabled.
