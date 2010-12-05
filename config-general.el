@@ -13,6 +13,9 @@
  '(word-wrap t)
  '(woman-locale "ENU"))
 
+;; (set-clipboard-coding-system 'utf-16le-dos)
+(set-clipboard-coding-system 'utf-8)
+
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
