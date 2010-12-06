@@ -23,3 +23,13 @@ C-v      scroll-up             Scroll to next screen (same as Page Down).
                                is disabled.
 
 C-h b    describe-bindings     Show a list of all defined keys, and their definitions.
+
+         term                  Start a terminal emulator in a new buffer. Use when a
+                               command uses a pager (e.g., 'git diff'), which will not
+                               be handled properly by 'M-x shell'. (Type C-c b to switch
+                               to another buffer, C-c o to select another window, etc.)
+
+         man                   Get a Un*x manual page and put it in a buffer.
+
+         woman                 Browse UN*X man page for topic. The major browsing mode
+                               used is essentially the standard Man mode (colors etc.).
