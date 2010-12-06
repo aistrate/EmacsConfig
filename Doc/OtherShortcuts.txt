@@ -21,3 +21,5 @@ M-v      scroll-down           Scroll to previous screen (same as Page Up).
 C-v      scroll-up             Scroll to next screen (same as Page Down).
                                Only works when 'C-x/C-c/C-v Cut and Paste (CUA)'
                                is disabled.
+
+C-h b    describe-bindings     Show a list of all defined keys, and their definitions.
