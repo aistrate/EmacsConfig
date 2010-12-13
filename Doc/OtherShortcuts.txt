@@ -20,6 +20,8 @@ C-x C-v  find-alternate-file   Find file, select its buffer, kill previous buffe
 
          revert-buffer         Reload file from disk. (Also works with non-file buffers.)
 
+C-x C-q  toggle-read-only      Change whether this buffer is read-only.
+
 M-v      scroll-down           Scroll to previous screen (same as Page Up).
                                Only works when 'C-x/C-c/C-v Cut and Paste (CUA)'
                                is disabled. (CUA stands for Common User Access.)
