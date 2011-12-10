@@ -28,6 +28,8 @@
 
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
+(menu-bar-mode 0)
+
 (setq inhibit-startup-screen t)
 ;; (setq initial-buffer-choice "C:/Languages/Haskell/empty")
 ;; (cd "C:/Emacs/EmacsConfig/typing")
