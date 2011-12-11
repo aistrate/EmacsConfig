@@ -28,7 +28,7 @@
 
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
-(menu-bar-mode 0)
+(menu-bar-mode (if (display-graphic-p) 1 0))
 
 (setq inhibit-startup-screen t)
 ;; (setq initial-buffer-choice "C:/Languages/Haskell/empty")
