@@ -59,8 +59,14 @@
 ;; (setq default-frame-alist (assq-delete-all 'font default-frame-alist))
 
 (add-to-list 'default-frame-alist
+        ;; ;; 1920 x 1200 px
         '(font . "-*-DejaVu Sans Mono-normal-r-*-*-15-*-*-*-c-*-*-*")
-        ;; '(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
         ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")
         ;; '(font . "-*-Anonymous Pro-normal-r-*-*-16-*-*-*-c-*-*-*")
+
+        ;; ;; 1280 x 1024 px
+        ;; '(font . "-*-DejaVu Sans Mono-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;; '(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;; '(font . "-*-Consolas-normal-r-*-*-13-*-*-*-c-*-*-*")
+        ;; '(font . "-*-Anonymous Pro-normal-r-*-*-14-*-*-*-c-*-*-*")
         )
