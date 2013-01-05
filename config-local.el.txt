@@ -7,8 +7,8 @@
 
 (setq default-frame-alist (assq-delete-all 'font default-frame-alist))
 (add-to-list 'default-frame-alist
-             '(font . "-*-DejaVu Sans Mono-normal-r-*-*-13-*-*-*-c-*-*-*")
-             ;; '(font . "-*-Anonymous Pro-normal-r-*-*-14-*-*-*-c-*-*-*")
+             '(font . "-*-DejaVu Sans Mono-normal-r-*-*-14-*-*-*-c-*-*-*")
+             ;; '(font . "-*-Anonymous Pro-normal-r-*-*-13-*-*-*-c-*-*-*")
 
              ;; ;; 1920 x 1200 px
              ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")     ;; Mac OS X
