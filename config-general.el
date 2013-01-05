@@ -25,6 +25,8 @@
 
 (setq make-backup-files nil)
 
+(setq-default indent-tabs-mode nil)
+
 (add-hook 'find-file-hook (lambda () (linum-mode 1)))
 (setq linum-format "%4d ")
 
@@ -56,26 +58,7 @@
       '((width . 96) (height . 57)
         (cursor-type . bar)
         (cursor-color . "black")
-	))
-
-;; (setq default-frame-alist (assq-delete-all 'width default-frame-alist))
-;; (setq default-frame-alist (assq-delete-all 'height default-frame-alist))
-
-;; (add-to-list 'default-frame-alist '(width . 96))
-;; (add-to-list 'default-frame-alist '(height . 57))
-
-;; (setq default-frame-alist (assq-delete-all 'font default-frame-alist))
+        ))
 
 (add-to-list 'default-frame-alist
-        ;; ;; 1920 x 1200 px
-        '(font . "-*-DejaVu Sans Mono-normal-r-*-*-15-*-*-*-c-*-*-*")
-        ;; '(font . "-*-Inconsolata-*-*-*-*-17-*-*-*-*-*-*-*")     ;; Mac OS X
-        ;; '(font . "-*-Consolas-normal-r-*-*-14-*-*-*-c-*-*-*")   ;; Windows
-        ;; '(font . "-*-Anonymous Pro-normal-r-*-*-16-*-*-*-c-*-*-*")
-
-        ;; ;; 1280 x 1024 px
-        ;; '(font . "-*-DejaVu Sans Mono-normal-r-*-*-13-*-*-*-c-*-*-*")
-        ;; '(font . "-*-Courier New-normal-r-*-*-13-*-*-*-c-*-*-*")
-        ;; '(font . "-*-Consolas-normal-r-*-*-13-*-*-*-c-*-*-*")   ;; Windows
-        ;; '(font . "-*-Anonymous Pro-normal-r-*-*-14-*-*-*-c-*-*-*")
-        )
+             '(font . "-*-DejaVu Sans Mono-normal-r-*-*-13-*-*-*-c-*-*-*"))
