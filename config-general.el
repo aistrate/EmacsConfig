@@ -23,6 +23,8 @@
   ;; If there is more than one, they won't work right.
  )
 
+(setq make-backup-files nil)
+
 (add-hook 'find-file-hook (lambda () (linum-mode 1)))
 (setq linum-format "%4d ")
 
