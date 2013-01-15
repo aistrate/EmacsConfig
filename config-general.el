@@ -11,7 +11,9 @@
  '(tool-bar-mode nil nil (tool-bar))
  '(trash-directory "~/.Trash")
  '(word-wrap t)
- '(woman-locale "ENU"))
+ '(woman-locale "ENU")
+ '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60
+                           64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
 
 (set-clipboard-coding-system 'utf-8)
 (setq x-select-enable-clipboard t)
@@ -26,6 +28,7 @@
 (setq make-backup-files nil)
 
 (setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
 
 (add-hook 'find-file-hook (lambda () (linum-mode 1)))
 (setq linum-format "%4d ")
